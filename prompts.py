@@ -2,6 +2,7 @@ import settings
 
 def convertToLinkedinPrompt(
     transcript,
+    number_of_posts=settings.number_of_posts,
     tone=settings.tone,
     style=settings.style,
     length=settings.length,
@@ -93,7 +94,7 @@ def convertToLinkedinPrompt(
         perspective=perspective,
         cultural_context=cultural_context,
         angle=angle,
-        number_of_posts=1  # assuming you want to create 1 post
+        number_of_posts=number_of_posts
     )
 
     return prompt
