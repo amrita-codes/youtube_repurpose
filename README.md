@@ -3,8 +3,8 @@
 ### How it works?
 - First fetches the transcript of the YouTube video.
 - Uses the transcript, settings.py and prompt in prompts.py file to generate a response from Claude AI (Anthropic).
-- Stores the response in response.txt and transcript in transcript.txt.
-- For an image, it sends the resposne to Claude AI, and saves the image in image.svg.
+- Stores the response in  `response.txt` and transcript in `transcript.txt`.
+- It sends the response to Claude AI to generate an image, saving it as `image.svg`.
 
 ### How to install and run?
 - Create a .env file.
